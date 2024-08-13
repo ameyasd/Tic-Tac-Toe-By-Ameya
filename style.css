@@ -1,0 +1,151 @@
+body{
+    background-color: #f7f6f6;
+}
+  
+.cell{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: rgb(255, 0, 98);
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    height: 80px;
+    width: 80px;
+    /* border-radius: 20px; */
+    /* box-shadow: 0em 0.5em 1em black; */
+    /* text-shadow: 0px 5px 10px black; */
+    background-color: white;
+    
+}
+#cell1{border-top-left-radius: 20px;}
+#cell3{border-top-right-radius: 20px;}
+#cell7{border-bottom-left-radius: 20px;}
+#cell9{border-bottom-right-radius: 20px;}
+#cell1, #cell4{
+    /* border-right: 3px rgb(9, 255, 0) solid;
+    border-bottom: 3px rgb(9, 255, 0) solid; */
+    border-right: 3px rgb(39, 3, 111) solid;
+    border-bottom: 3px rgb(39, 3, 111) solid;
+}
+#cell7{
+    border-right: 3px rgb(39, 3, 111) solid;
+}
+#cell3, #cell6{
+    border-left: 3px rgb(39, 3, 111) solid;
+    border-bottom: 3px rgb(39, 3, 111) solid;
+}
+#cell9{
+    border-left: 3px rgb(39, 3, 111) solid;
+}
+#cell2,#cell5{
+    border-bottom: 3px rgb(39, 3, 111) solid;;
+}
+.r1,.r2,.r3{
+    display: flex;
+}
+#game{
+    margin-top: 0px;
+    box-shadow: rgba(33, 33, 33, 0.1) 0px 5px 10px;
+    /* box-shadow: 0em 1em 4em rgb(24, 0, 73); */
+    border-radius: 20px;
+}
+#container{
+    flex-direction: row-reverse;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:0px;
+    height: 300px;
+    width: 300px;
+    /* box-shadow: 0em 1em 10em black;
+    background-color: rgb(134, 21, 255);
+    border-radius: 13%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#heading{
+    font-size: 50px;
+    padding: 0px;
+    font-weight: bold;
+    text-align:center;
+    color:rgb(255, 0, 98);
+}
+#heading{
+    font-family: 'Courier New', Courier, monospace;
+    /* text-shadow: 0em 2px 0px rgb(113, 1, 249), 0px 3px rgb(95, 1, 178), 0em 0em 10px rgb(255, 65, 65); */
+    text-shadow: 0em 2px 0px rgb(200, 0, 77), 0px 3px rgb(95, 1, 178), 0em 0em 10px rgb(255, 65, 65);
+}
+#winner{
+    margin-top: 40px;
+    font-size: 40px;
+    padding: 0px;
+    font-weight: bold;
+    text-align:center;
+    /* color:rgb(83, 129, 238); */
+    color:rgb(255, 0, 98);
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 0em 2px 0px rgb(200, 0, 77), 0px 4px rgb(95, 1, 178), 0em 0em 10px rgb(247, 57, 57);
+}
+#turn{
+    font-size: 50px;
+    padding: 0px;
+    font-weight: bold;
+    text-align:center;
+    color: rgb(255, 0, 98);
+}
+#turn{
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 0em 2px 0px rgb(200, 0, 77), 0px 3px rgb(95, 1, 178), 0em 0em 10px rgb(255, 118, 118);
+}
+
+#restartGame{
+    /* display: flex; */
+    /* margin-top: -250px; */
+    align-content: center;
+    margin-left: 60px;
+    /* margin-right: 0px; */
+    padding: 30px;
+    background-color: rgb(255, 255, 255);
+    height: 90px;
+    width: 500px;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: bold;
+}
+#restartGame{
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0em 3px 1px #a2a2a2, 0em 4px 0px #cecece, 0em 4px 1px #cecece;
+}
+p{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+#playerBox{
+    display: flex;
+    margin-right: auto;
+    margin-left:auto;
+    margin-top:30px;
+    align-items: center;
+    justify-content: center;
+}
+#submitHere{
+    padding:0px;
+    height: 50px;
+    font-weight: bold;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0em 3px 1px #a2a2a2, 0em 4px 0px #cecece, 0em 4px 1px #cecece;
+}
+input{
+    padding: auto;
+    height: 50px;
+    width: 90px;
+}
